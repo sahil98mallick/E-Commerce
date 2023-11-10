@@ -1,0 +1,77 @@
+.banner-container {
+  position: relative;
+  background-image: url(https://img.freepik.com/free-photo/online-fashion-shopping-with-smartphone_23-2150400572.jpg?w=1060&t=st=1699078688~exp=1699079288~hmac=0f443948fb1358c98fa42684ea94b0c82a6191dbc81ff069bef7c3a263a8f344);
+  background-size: cover;
+  background-position: center;
+  padding: 2rem 0;
+  overflow: hidden;
+  display: flex;
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  border-radius: 15px;
+}
+
+/* Overlay */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+  border-radius: 15px;
+}
+
+
+/* Banner Button */
+.banner-button {
+  background-color: #ff5722;
+  color: white;
+  padding: 0.75rem 2rem;
+  font-size: 1.25rem;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.banner-button:hover {
+  background-color: #ff784e;
+  transform: scale(1.1);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
+}
+
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: black
+  }
+}
