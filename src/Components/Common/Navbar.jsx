@@ -72,7 +72,7 @@ function Navbar() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.get(`http://localhost:12345/api/product/search/${values.keyword}`);
+      const { data } = await axios.get(`https://e-commercenodewebserver.onrender.com/api/product/search/${values.keyword}`);
       setValues({ ...values, results: data });
       navigate("/searchproducts");
     } catch (error) {
