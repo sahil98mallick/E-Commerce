@@ -19,7 +19,7 @@ import Footer from './Components/Common/Footer';
 
 
 function App() {
-  const [auth] = useAuth()
+  const [auth] = useAuth();
   function PrivateRoute({ children }) {
     const token = localStorage.getItem("auth") || sessionStorage.getItem("auth");
     return token !== null && token !== undefined ? (

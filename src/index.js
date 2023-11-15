@@ -6,6 +6,21 @@ import reportWebVitals from './reportWebVitals';
 import { Authentication } from './Components/Context/Authentication';
 import { ProductCart } from './Components/Context/ProductCart';
 import { GlobalSearch } from './Components/Context/GlobalSearch';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+// Disable right-click on the entire document
+document.addEventListener('contextmenu', (e) => {
+  e.preventDefault();
+  toast.error("Website Content Is Protected.", {
+    position: "top-center",
+    autoClose: 3000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+  });
+});
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +28,7 @@ root.render(
     <GlobalSearch>
       <ProductCart>
         <React.StrictMode>
+        <ToastContainer />
           <App />
         </React.StrictMode>
       </ProductCart>
