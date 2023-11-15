@@ -89,7 +89,7 @@ function Navbar() {
                 <Link to='/' style={{ textDecoration: "none", color: "black", fontFamily: "Times", }}>
                   <Typography variant="h6" style={{ display: 'flex', justifyContent: "space-around", alignItems: 'center', color: 'black', fontFamily: "Times", }}>
                     <img src="https://logos-world.net/wp-content/uploads/2020/11/Flipkart-Emblem.png" alt="Flipkart" style={{ height: 30, marginRight: 15, color: "black", }} />
-                    ShopNest Website
+                    ShopNest
                   </Typography></Link>
               </>
             ) : (
@@ -97,7 +97,7 @@ function Navbar() {
                 <Link to='/' style={{ textDecoration: "none", color: "black" }}>
                   <Typography variant="h5" style={{ display: 'flex', background: "", justifyContent: "space-around", alignItems: 'center', color: 'black', fontFamily: "Times", fontWeight: "800" }}>
                     <img src="https://logos-world.net/wp-content/uploads/2020/11/Flipkart-Emblem.png" alt="Flipkart" style={{ height: 50, borderRadius: "50%" }} />
-                    ShopNest
+                    Shop Nest
                   </Typography>
                 </Link>
               </>
