@@ -89,7 +89,7 @@ function Navbar() {
                 <Link to='/' style={{ textDecoration: "none", color: "black", fontFamily: "Times", }}>
                   <Typography variant="h6" style={{ display: 'flex', justifyContent: "space-around", alignItems: 'center', color: 'black', fontFamily: "Times", }}>
                     <img src="https://logos-world.net/wp-content/uploads/2020/11/Flipkart-Emblem.png" alt="Flipkart" style={{ height: 30, marginRight: 15, color: "black", }} />
-                    ShopNest
+                    ShopNest Website
                   </Typography></Link>
               </>
             ) : (
